@@ -84,7 +84,7 @@ sim3d.utils.copyExampleSim3dProject('C:\My_Lidar_Project')
 
 You should now have `C:\My_Lidar_Project\AutoVrtlEnv\AutoVrtlEnv.uproject`.
 
-> ⚠️ No spaces in the path. `C:\My Lidar Project\` will cause issues later.
+> No spaces in the path. `C:\My Lidar Project\` will cause issues later.
 
 > **Problem:** Tried using a hardcoded `v7.1` version path and got `Error using winopen: file not found`. That subfolder name changed in R2025b.
 >
