@@ -263,6 +263,7 @@ This is what the final model looks like:
 **Simulation 3D Vehicle with Ground Following**
 - Actor name: `SimulinkVehicle1`
 - Connect Constant blocks to X, Y, Yaw: X=`20`, Y=`0`, Yaw=`0`
+- For implementing ROS2 messages here, would probably need to use function blocks to set X, Y, and Z
 
 **Simulation 3D LiDAR**
 - Parent name: `SimulinkVehicle1`
@@ -277,7 +278,7 @@ This is what the final model looks like:
 
 ---
 
-## Step 13 — Set Stop Time to inf
+## Step 13 — Set Stop Time to inf (IMPORTANT)
 
 In the Simulink toolbar change Stop Time from `10.0` to `inf`.
 
