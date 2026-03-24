@@ -252,19 +252,8 @@ To avoid doing this every time: `Edit → Project Settings → Maps & Modes` →
 
 This is what the final model looks like:
 
-```
-[Sim 3D Scene Config] 
+<img width="1551" height="582" alt="Screenshot 2026-03-10 181551" src="https://github.com/user-attachments/assets/4ce404f3-35d8-47cf-b4c6-b67e291458c4" />
 
-[Sim 3D Vehicle] ──────────────────── (no output connections needed)
-  X ←── [Constant: 20]
-  Y ←── [Constant: 0]
-  Yaw ←── [Constant: 0]
-
-[Sim 3D LiDAR]
-  Point Cloud ──→ [Point Cloud Viewer] (Point Cloud input)
-  Distance ────→ [Point Cloud Viewer] (Intensity input)  
-  Reflectivity ─→ (optional)
-```
 
 **Simulation 3D Scene Configuration**
 - Scene source: `Unreal Editor`
