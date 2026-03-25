@@ -252,7 +252,8 @@ To avoid doing this every time: `Edit → Project Settings → Maps & Modes` →
 
 This is what the final model looks like:
 
-<img width="1551" height="582" alt="Screenshot 2026-03-10 181551" src="https://github.com/user-attachments/assets/4ce404f3-35d8-47cf-b4c6-b67e291458c4" />
+<img width="2323" height="875" alt="image" src="https://github.com/user-attachments/assets/e0783f61-1e9e-4a3d-aeeb-fdf137b1b4f3" />
+
 
 
 **Simulation 3D Scene Configuration**
